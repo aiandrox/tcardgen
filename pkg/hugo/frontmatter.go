@@ -49,9 +49,6 @@ func parseFrontMatter(r io.Reader) (*FrontMatter, error) {
 	if fm.Title, err = getString(&cfm, fmTitle); err != nil {
 		return nil, err
 	}
-	if $.Param "author", err = getFirstStringItem(&cfm, fmAuthor); err != nil {
-		return nil, err
-	}
 	if fm.Category, err = getFirstStringItem(&cfm, fmCategories); err != nil {
 		return nil, err
 	}
