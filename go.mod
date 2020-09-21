@@ -3,6 +3,7 @@ module github.com/aiandrox/tcardgen
 go 1.14
 
 require (
+	github.com/Ladicle/tcardgen v0.0.0-20200808122432-b3eb129f8851
 	github.com/ghodss/yaml v1.0.0
 	github.com/gohugoio/hugo v0.72.0
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
